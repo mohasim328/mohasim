@@ -8,7 +8,7 @@ module.exports = {
     },
        colors: {
         "color-primary": "#01051e",
-        "color-secondry": "rgb(22 163 74)",
+        "color-secondry": "#16A34A",
         "color-primary-light":"#02072e",
         "color-primay-dark": "#010417",
         "color-gray": "#333",
@@ -23,7 +23,7 @@ module.exports = {
       padding:{
         DEFAULT:'30px',
         md:"50px"
-      }
+      },
     }
   },
   plugins: [],

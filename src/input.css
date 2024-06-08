@@ -4,7 +4,10 @@
 @tailwind utilities;
 
     .btn{
+      
          @apply block  bg-color-secondry  px-5 py-2 rounded-md font-light text-lg  ease-in duration-200 cursor-pointer hover:bg-transparent border border-color-secondry active:scale-75;
+
+         
    }
    .btn2{
       @apply  block border border-color-secondry text-color-secondry px-5 py-2 font-light rounded-md text-lg cursor-pointer hover:bg-color-hover-bg active:scale-75 ;
@@ -19,3 +22,14 @@
     .ancher{
       @apply hover:text-color-secondry font-light text-3xl ease-in duration-200 cursor-pointer; 
     } 
+
+    .shadow-style{
+      box-shadow: 0 0 10px white;
+      border-radius: 10px;
+    }
+
+    .heading h1{
+       /* border-bottom: 3px solid rgba(0, 106, 255, 0.977); */
+      @apply border-b-[5px] border-solid border-color-secondry;
+      
+    }

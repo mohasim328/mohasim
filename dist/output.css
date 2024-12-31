@@ -612,10 +612,6 @@ video {
   z-index: 50;
 }
 
-.m-auto{
-  margin: auto;
-}
-
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -641,6 +637,11 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .my-5{
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
@@ -649,11 +650,6 @@ video {
 .my-8{
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-
-.my-4{
-  margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
 .my-auto{
@@ -725,32 +721,20 @@ video {
   height: 100vh;
 }
 
-.h-\[65px\]{
-  height: 65px;
-}
-
-.h-full{
-  height: 100%;
-}
-
-.h-\[80vh\]{
-  height: 80vh;
-}
-
-.h-\[30\%\]{
-  height: 30%;
-}
-
-.h-\[70\%\]{
-  height: 70%;
-}
-
 .h-\[20\%\]{
   height: 20%;
 }
 
+.h-\[65px\]{
+  height: 65px;
+}
+
 .h-\[80\%\]{
   height: 80%;
+}
+
+.h-full{
+  height: 100%;
 }
 
 .min-h-\[80vh\]{
@@ -863,10 +847,6 @@ video {
   justify-content: flex-start;
 }
 
-.justify-end{
-  justify-content: flex-end;
-}
-
 .justify-center{
   justify-content: center;
 }
@@ -895,10 +875,6 @@ video {
   gap: 2rem;
 }
 
-.gap-4{
-  gap: 1rem;
-}
-
 .space-x-10 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(2.5rem * var(--tw-space-x-reverse));
@@ -921,14 +897,14 @@ video {
   border-radius: 0.5rem;
 }
 
-.rounded-t-lg{
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-}
-
 .rounded-b-lg{
   border-bottom-right-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
+}
+
+.rounded-t-lg{
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
 }
 
 .border{
@@ -979,6 +955,11 @@ video {
   padding-right: 2.5rem;
 }
 
+.px-2{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .py-10{
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -1002,11 +983,6 @@ video {
 .py-5{
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
-
-.px-2{
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 
 .pl-2{
@@ -1302,14 +1278,6 @@ video {
 }
 
 @media (min-width: 768px){
-  .md\:w-\[800px\]{
-    width: 800px;
-  }
-
-  .md\:w-\[900px\]{
-    width: 900px;
-  }
-
   .md\:w-\[700px\]{
     width: 700px;
   }

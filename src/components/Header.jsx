@@ -13,7 +13,7 @@ const Header = ({ HomeSec, AboutSec, ContactSec, ProjectSec, SkillSec,EducationS
 
     return (
 
-        <div className="flex md:flex justify-between items-center fixed top-0 left-0 w-full backdrop-blur-xl h-20 px-8">
+        <div className="flex md:flex justify-between items-center fixed top-0 left-0 w-full backdrop-blur-xl h-20 md:px-8 px-4">
             <div>
                 <h1 className="text-5xl font-extrabold">MH<span className="text-secondry">.</span>
                 </h1>

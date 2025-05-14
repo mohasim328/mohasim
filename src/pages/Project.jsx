@@ -9,7 +9,7 @@ import {FaGithub } from "react-icons/fa6";
 const Project = () => {
   return (
     
-        <div className="container py-10 min-h-screen px-10">
+        <div className="container py-10 min-h-screen md:px-10 px-5">
             <div className="heading  py-10 text-center ">
                 <h1 className="text-5xl sm:text-6xl font-extrabold inline-block">Project</h1>
             </div>

@@ -7,7 +7,7 @@ import { MdOutlineMailOutline } from "react-icons/md";
 const Home = () => {
   return (
     <div className="container pt-20 flex items-center justify-center min-h-screen mx-auto">
-      <div className="flex flex-col items-center lg:flex-row px-10">
+      <div className="flex flex-col items-center lg:flex-row md:px-10 px-5">
         <div className="lg:w-[60%] my-20 ">
           <h2 className=" text-white text-2xl sm:text-3xl md:text-4xl font-semibold mt-2 mb-4">Hi, there!</h2>
           <h1 className=" text-white text-4xl sm:text-5xl md:text-6xl font-bold  tracking-tight my-3 ">I'm Mo Hasim

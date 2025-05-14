@@ -7,7 +7,7 @@ import { FaHackerrank } from "react-icons/fa6";
 
 const About = ({ ContactSec }) => {
     return (
-        <div className="container pt-20 min-h-screen px-10 mx-auto">
+        <div className="container pt-20 min-h-screen md:px-10 px-5 mx-auto">
             <div className="ab-heading  text-center ">
                 <h1 className=" text-5xl sm:text-6xl font-extrabold">About Me</h1>
             </div>
